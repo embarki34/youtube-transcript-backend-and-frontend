@@ -48,7 +48,7 @@ Simply enter the YouTube video URL in the sidebar, and the app will handle the r
             st.sidebar.subheader("Video Statistics")
             
             # Fetch video stats
-            api_key = "AIzaSyCKkAcXWY3gpnDjtTe2_SkRcNDeF2_vkAk"
+            api_key = "YOUR API KEY"
             video_stats = get_video_stats(video_id, api_key)
             if video_stats:
                 st.sidebar.write(f"Total Views: {video_stats['total_views']}")
